@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">JobDispatcher</string>
+	<string name="btn_schedule">Schedule Job</string>
+	<string name="btn_cancel">Cancel Job</string>
+	<string name="job_scheduled">Job scheduled!</string>
+	<string name="job_cancelled">Job cancelled!</string>
+</resources>
