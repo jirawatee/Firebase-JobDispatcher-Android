@@ -2,22 +2,25 @@
 
 buildscript {
 	repositories {
+		google()
 		jcenter()
 	}
 	dependencies {
-		classpath 'com.android.tools.build:gradle:2.4.0-alpha6'
-
-		// NOTE: Do not place your application dependencies here; they belong
-		// in the individual module build.gradle files
+		classpath 'com.android.tools.build:gradle:3.0.0-beta1'
 	}
 }
 
 allprojects {
 	repositories {
+		google()
 		jcenter()
 	}
 }
 
 task clean(type: Delete) {
 	delete rootProject.buildDir
+}
+
+ext {
+	compileAndTargetSdk = 26
 }

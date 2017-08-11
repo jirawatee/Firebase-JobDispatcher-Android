@@ -3,7 +3,7 @@ Sample code about how to handle background services in Android O by Firebase Job
 
 ## Prerequisites
 * Supported Android API 9 and newer
-* Android Studio 2.4 or higher
+* Android Studio 2.3 or higher
 
 ## Contents
 * Job settings
