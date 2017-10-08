@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
 	compileSdkVersion compileAndTargetSdk
-	buildToolsVersion '26.0.1'
+	buildToolsVersion '26.0.2'
 	defaultConfig {
 		applicationId "com.example.jobdispatcher"
-		minSdkVersion 25
+		minSdkVersion 26
 		targetSdkVersion compileAndTargetSdk
 		versionCode 1
 		versionName "1.0"
@@ -25,6 +25,6 @@ android {
 }
 
 dependencies {
-	compile 'com.android.support:appcompat-v7:26.0.1'
-	compile 'com.firebase:firebase-jobdispatcher:0.7.0'
+	implementation 'com.android.support:appcompat-v7:26.1.0'
+	implementation 'com.firebase:firebase-jobdispatcher:0.8.3'
 }
